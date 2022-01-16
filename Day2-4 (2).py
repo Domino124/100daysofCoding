@@ -16,6 +16,7 @@ total_bill = bill + tip_amount
 each_person_pay = total_bill / people
 #print(each_person_pay)
 #final_number = round(each_person_pay, 4)
-final_number = "{:.4f}".format(each_person_pay)
-print(f"Each person should pay: ${final_number}")
+#final_number = "{:.4f}".format(each_person_pay)
+#print(f"Each person should pay: ${final_number}")
+print(f"Each person should pay: ${each_person_pay:.4f}")
 
