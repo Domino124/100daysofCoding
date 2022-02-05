@@ -8,6 +8,9 @@ names = names_string.split(", ")
 import random
 
 number = len(names)
-random_choice = random.randint(0, number - 1)
-person = names[random_choice]
+#random_choice = random.randint(0, number - 1)
+#person = names[random_choice]
+#print(person + " is going to buy the meal today")
+
+person = random.choice(names)
 print(person + " is going to buy the meal today")
